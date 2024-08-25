@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="module" src="./assets/packages/o3d/assets/model-viewer.min.js" defer></script>
+  <meta name="google-signin-client_id" content="APIKEY">
+  <!-- Load the Google Maps JavaScript API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=APIKEY" defer></script>
+
+  <script>
+    function initMap() {
+      const mapOptions = {
+        center: { lat: 37.7749, lng: -122.4194 },
+        zoom: 14,
+        styles: [
+          {
+            "elementType": "geometry",
+            "stylers": [
+              { "color": "#212121" }
+            ]
+          },
+          {
+            "elementType": "labels.text.fill",
+            "stylers": [
+              { "color": "#757575" }
+            ]
+          },
+          {
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              { "color": "#212121" }
+            ]
+          },
+          // Add more styles here...
+        ],
+      };
+
+      const map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+      new google.maps.Marker({
+        position: { lat: 37.7749, lng: -122.4194 },
+        map: map,
+        title: "Current Location",
+      });
+    }
+  </script>
+  <!-- Your existing imports and scripts -->
+  <script type="module" src="./assets/packages/o3d/assets/model-viewer.min.js" defer></script>
+
+  <!-- Other meta tags and configurations -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Car</title>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="smart_car">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<div id="map" style="height: 100vh; width: 100%;"></div>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+name: smart_car
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  o3d: ^3.1.2
+  get: ^4.6.6
+  flutter_svg: ^2.0.10+1
+  syncfusion_flutter_gauges: ^26.2.10
+  lottie: ^3.1.2
+  slider_button: ^2.1.0
+  google_maps_flutter: ^2.9.0
+  geolocator: ^11.1.0
+  flutter_typeahead: ^4.0.0
+  dio: ^5.6.0
+  animated_analog_clock: ^0.1.0
+  just_audio: ^0.9.39
+  table_calendar: ^3.0.8
+
+#dependency_overrides:
+#  google_maps_flutter_web: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/3d/
+   - assets/images/
+   - assets/svg/
+   - assets/animations/

@@ -7,6 +7,8 @@ Dash Pilot is a modern, customizable smart dashboard solution designed for cars.
 ### 🚧 Status: In Development 🚧
 This project is currently under active development. Contributions, ideas, and feature suggestions are welcome!
 
+Add Map Api Key on Index.html for web and Runner AppDeligate for iOS. Responsiveness is under development, lower screen (zoom out) if overflow occurs. 
+
 ## Features
 
 - **Real-time Navigation and Maps**: Integrated Google Maps with real-time navigation.

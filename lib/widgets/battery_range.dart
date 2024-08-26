@@ -88,7 +88,7 @@ class BatteryRangeUI extends StatelessWidget {
                 ),
               ],
             ),
-            // Add the rest of your UI here (e.g., speedometer below)
+           
           ],
         ),
       ),

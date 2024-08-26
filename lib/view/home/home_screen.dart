@@ -51,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     left: 520,
                     child: const Weather(),
                   ),
-                  // Widgets grouped together for additional functionalities (e.g., humidity, wind, music controls)
+                  // Widgets grouped together
                   Positioned(
                     left: 520,
                     top: 220,

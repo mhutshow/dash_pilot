@@ -65,11 +65,11 @@ class _GlassmorphicTodoScreenState extends State<GlassmorphicTodoScreen> {
               weekendTextStyle: TextStyle(color: Colors.white70),
             ),
             headerStyle: HeaderStyle(
-              formatButtonVisible: false, // Hide format button
+              formatButtonVisible: false, 
               titleCentered: true,
-              titleTextStyle: TextStyle(color: Colors.transparent), // Hide the month name
-              leftChevronVisible: false, // Hide left chevron button
-              rightChevronVisible: false, // Hide right chevron button
+              titleTextStyle: TextStyle(color: Colors.transparent),
+              leftChevronVisible: false, 
+              rightChevronVisible: false, 
             ),
             daysOfWeekStyle: DaysOfWeekStyle(
               weekdayStyle: TextStyle(color: Colors.white70),

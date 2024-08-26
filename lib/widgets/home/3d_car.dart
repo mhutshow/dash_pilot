@@ -25,27 +25,27 @@ class _CarImageWithTiltedCircleState extends State<CarImageWithTiltedCircle> {
       children: [
         // Tilted circle layer under the car
         Positioned(
-          bottom: -45, // Adjust position as needed
+          bottom: -45, 
           child: Transform(
             alignment: Alignment.center,
             transform: Matrix4.identity()
-              ..rotateX(20 * 3.1415927 / 180) // Tilt the circle by 70 degrees
-              ..scale(1.2, 0.6), // Scale to create an elliptical perspective
+              ..rotateX(20 * 3.1415927 / 180) 
+              ..scale(1.2, 0.6), /
             child: Container(
-              width: 350, // Adjust width as needed
+              width: 350, 
               height: 350,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 border: Border.all(
                   color: Colors.blue.withOpacity(0.3),
-                  width: 4.0, // Thickness of the circle's border
+                  width: 4.0,
                 ),
                 gradient: RadialGradient(
                   colors: [
                     Colors.white.withOpacity(0.3),
                     Colors.transparent,
                   ],
-                  center: Alignment(0, 0), // Center gradient
+                  center: Alignment(0, 0), 
                   radius: 0.8,
                 ),
               ),

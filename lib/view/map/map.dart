@@ -30,8 +30,8 @@ class _NavigationMapScreenState extends State<NavigationMapScreen> {
 
   Future<void> _setCustomMarker() async {
     _carIcon = await BitmapDescriptor.fromAssetImage(
-      ImageConfiguration(devicePixelRatio: 2.5, size: Size(80, 50)), // Adjust the size here
-      FilePath.cartop, // Make sure you have a car icon at this path
+      ImageConfiguration(devicePixelRatio: 2.5, size: Size(80, 50)), 
+      FilePath.cartop,
     );
   }
 
@@ -60,7 +60,7 @@ class _NavigationMapScreenState extends State<NavigationMapScreen> {
       LatLng(49.1715, -123.1380),
       LatLng(49.1730, -123.1392),
       LatLng(49.1745, -123.1405),
-      LatLng(49.1760, -123.1420), // Add more coordinates as needed
+      LatLng(49.1760, -123.1420), 
     ];
   }
 
@@ -135,7 +135,7 @@ class _NavigationMapScreenState extends State<NavigationMapScreen> {
               });
             },
           ),
-          // Navigation instructions overlay
+        
           Positioned(
             top: 40,
             left: 20,
@@ -191,7 +191,7 @@ class _NavigationMapScreenState extends State<NavigationMapScreen> {
     );
   }
 
-  // Dark Map Style with labels/icons enabled
+  // Dark Map Style 
   String get _darkMapStyle => '''[
     {
       "elementType": "geometry",

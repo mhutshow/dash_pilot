@@ -32,13 +32,13 @@ class _CarViewState extends State<CarView> {
   void zoomIn() {
     // Move the camera closer to simulate zoom
     controller.cameraOrbit(
-        0, 0, -0.5); // Adjust values as per your model’s scale
+        0, 0, -0.5); 
   }
 
   void zoomOut() {
     // Move the camera farther to simulate zoom
     controller.cameraOrbit(
-        0, 0, 0.5); // Adjust values as per your model’s scale
+        0, 0, 0.5); 
   }
 
   void changeCarColor(String variantName) {
@@ -81,13 +81,13 @@ class _CarViewState extends State<CarView> {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    changeCarColor('red'); // Change the color to red
+                    changeCarColor('red');
                   },
                   child: const Text('Red Color'),
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    changeCarColor('blue'); // Change the color to blue
+                    changeCarColor('blue'); 
                   },
                   child: const Text('Blue Color'),
                 ),

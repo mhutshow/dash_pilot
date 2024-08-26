@@ -13,7 +13,7 @@ class VideoRecordingScreen extends StatelessWidget {
         SizedBox(
           width: 680,
           child: Opacity(
-            opacity: 0.8, // Control the transparency of the image
+            opacity: 0.8, 
             child: ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: Image.network(

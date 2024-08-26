@@ -22,9 +22,9 @@ This project is currently under active development. Contributions, ideas, and fe
 
 ## Project Demo
 
-Check out a quick demo of Dash Pilot in action:
+[![Watch Video](https://img.shields.io/badge/Watch-Video-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=m1eFJVy8EKs)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m1eFJVy8EKs?si=w8x9EkXU5P6eqitR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> Click the button above to watch the demo video.
 
 ## Installation
 

@@ -33,12 +33,12 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Stack(
         children: [
          // Background image for the dashboard
-          Image.asset(
-            FilePath.bg,
-            fit: BoxFit.cover,
-            height: double.infinity,
-            width: double.infinity,
-          ),
+         //  Image.asset(
+         //    FilePath.bg,
+         //    fit: BoxFit.cover,
+         //    height: double.infinity,
+         //    width: double.infinity,
+         //  ),
           Padding(
             padding: const EdgeInsets.all(50),
             child: SizedBox(

@@ -30,7 +30,7 @@ class _CarImageWithTiltedCircleState extends State<CarImageWithTiltedCircle> {
             alignment: Alignment.center,
             transform: Matrix4.identity()
               ..rotateX(20 * 3.1415927 / 180) 
-              ..scale(1.2, 0.6), /
+              ..scale(1.2, 0.6),
             child: Container(
               width: 350, 
               height: 350,
